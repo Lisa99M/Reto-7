@@ -84,23 +84,36 @@ Código:
 adivinar_numero : int
 import random
 numero_desconocido = random.randint(1,100)
-bandera : bool = False
-adivinar_numero = int(input("Insertar un número entre 1 y 100"))
+bandera : bool = True
 
-while not bandera:
+while bandera:
+    adivinar_numero = int(input("Insertar un número entre 1 y 100"))
     if numero_desconocido > adivinar_numero:
         print("Has introducido un número muy pequeño")
     elif numero_desconocido < adivinar_numero:
         print("Has introducido un número muy grande")
-        bandera = True
     else: 
         print("¡¡Has adivinado el número!!")
+bandera = False 
 ```
 
 ###Punto 7
 Código:
 ```
+#Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
+def divisores_numero(numero):
+    divisores = []
+    for n in range(2,51):
+        if numero % n == 0:
+            divisores.append(n)
+    return divisores
 
+numero = int(input("Ingrese un número entre 2 y 50: "))
+if 2 <= numero <= 50:
+    divisores =  divisores_numero(numero)
+    print("Los divisores de" + str(numero) + " son:" + str(divisores))
+else:
+    print("El número ingresado no se encuentra dentro del rango de 2 a 50.")
 ```
 
 ###Punto 8
