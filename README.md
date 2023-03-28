@@ -11,6 +11,7 @@ while (numero <= 100):
 print("Fin")
 ```
 Diagrama de flujo:
+
 [![](https://mermaid.ink/img/pako:eNpNkL1Ow0AMx1_FurGkUsuYAUSaVjDQgTKRdLByLj1xH8F3B6qSvBgrL8alaSU82f7__NmJxkkSuTho990ckQO8lrWFZA-VjYbY5aBs2MN8fgdF9YhaI8OkzGa3-4ktzvKq2_7-jAKQB0PWMXxGguVicT9M3Grk-p3qoaxeqKWgGFpkvDSEm-V5UPGf3roe1tWTaVmZhGvn4Qu14zRD0rXwBD56aCJKRun8Za11qt9UG2WnWGQiwQaVTAd3Y6oW4UiGapEnVyJ_1KK2Q-IwBrc72UbkgSNlIrYSA5UK3xmNyA-ofcqSVMHx8_TB8yMz0aJ9c-7KDH8DJHKj?type=png)](https://mermaid.live/edit#pako:eNpNkL1Ow0AMx1_FurGkUsuYAUSaVjDQgTKRdLByLj1xH8F3B6qSvBgrL8alaSU82f7__NmJxkkSuTho990ckQO8lrWFZA-VjYbY5aBs2MN8fgdF9YhaI8OkzGa3-4ktzvKq2_7-jAKQB0PWMXxGguVicT9M3Grk-p3qoaxeqKWgGFpkvDSEm-V5UPGf3roe1tWTaVmZhGvn4Qu14zRD0rXwBD56aCJKRun8Za11qt9UG2WnWGQiwQaVTAd3Y6oW4UiGapEnVyJ_1KK2Q-IwBrc72UbkgSNlIrYSA5UK3xmNyA-ofcqSVMHx8_TB8yMz0aJ9c-7KDH8DJHKj)
 
 ### Punto 2
