@@ -55,18 +55,46 @@ while añoA >= añoB:
     añoB = añoB*(1 + 0.03)
     año = año + 1
 print("En el año " + str(año) + " la población del país B superará a la de A")
+print("Fin")
 ```
 
 ###Punto 5
 Código:
 ```
-
+#Imprimir el factorial de un número natural n dado.
+n: int
+m: int
+fact: int
+n = int(input("Insertar valor de n"))
+m = 1
+fact = 1
+if n<0:
+    print("No es posible calcular el factorial de " + str(n))
+else:
+    while m <= n:
+        fact = fact*m
+        m = m+1
+    print("El factorial de " + str(n) + " es " + str(fact))
 ```
 
 ###Punto 6
 Código:
 ```
+#Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
+adivinar_numero : int
+import random
+numero_desconocido = random.randint(1,100)
+bandera : bool = False
+adivinar_numero = int(input("Insertar un número entre 1 y 100"))
 
+while not bandera:
+    if numero_desconocido > adivinar_numero:
+        print("Has introducido un número muy pequeño")
+    elif numero_desconocido < adivinar_numero:
+        print("Has introducido un número muy grande")
+        bandera = True
+    else: 
+        print("¡¡Has adivinado el número!!")
 ```
 
 ###Punto 7
